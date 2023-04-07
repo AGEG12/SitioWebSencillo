@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="copyright" content="Página registrada">
+    <meta name="author" content="Alan Estrada">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visita Chiapas</title>
+    <link rel="icon" href="chiapas.ico">
+    <link rel="stylesheet" href="styleD.css">
+    <link rel="stylesheet" href="styleM.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container__int">
+            <input id="int__menu" type="checkbox">
+            <label class="icon-map open__menu" for="int__menu"></label>
+            <div class="responsive__nav">
+                <ul class="responsive__nav__ul">
+                    <a class="responsive__nav__ul__a" href="index.html">              <li class="responsive__nav__ul__a__li"><span class="icon-home3"> </span>Home</li></a>
+                    <a class="responsive__nav__ul__a" href="historia.html">           <li class="responsive__nav__ul__a__li"><span class="icon-history"> </span>Historia</li></a>
+                    <a class="responsive__nav__ul__a" href="descripcion.html">        <li class="responsive__nav__ul__a__li"><span class="icon-paragraph-center"> </span>Descripción</li></a>
+                    <a class="responsive__nav__ul__a" href="testimonios.html">        <li class="responsive__nav__ul__a__li"><span class="icon-bubble2"> </span>Comentarios</li></a>
+                    <a class="responsive__nav__ul__a" href="reservacion.html">        <li class="responsive__nav__ul__a__li"><span class="icon-calendar"> </span>Reservar</li></a>
+                    <a class="responsive__nav__ul__a" href="contenidoAdicional.html"> <li class="responsive__nav__ul__a__li"><span class="icon-plus"> </span>Más</li></a>
+                    <ul>
+            </div>
+        </div>
+            <nav class="header__nav">
+                <ul class="header__nav__ul">
+                    <a class="header__nav__ul__a" href="index.html">              <li class="header__nav__ul__a__li"><span class="icon-home3"> </span><br>Home</li></a>
+                    <a class="header__nav__ul__a" href="historia.html">           <li class="header__nav__ul__a__li"><span class="icon-history"> </span><br>Historia</li></a>
+                    <a class="header__nav__ul__a" href="descripcion.html">        <li class="header__nav__ul__a__li"><span class="icon-paragraph-center"> </span><br>Descripción</li></a>
+                    <a class="header__nav__ul__a" href="testimonios.html">        <li class="header__nav__ul__a__li"><span class="icon-bubble2"> </span><br>Comentarios</li></a>
+                    <a class="header__nav__ul__a" href="reservacion.html">        <li class="header__nav__ul__a__li"><span class="icon-calendar"> </span><br>Reservar</li></a>
+                    <a class="header__nav__ul__a" href="contenidoAdicional.html"> <li class="header__nav__ul__a__li"><span class="icon-plus"> </span><br>Más</li></a>
+                    <ul>
+            </nav>
+        <h1 class="title">Cascadas de Agua Azul</h1>
+    </header>
+    <h2 class="subtitle">Reservar</h2>
+    <main id="main__form">
+        <form id="form__registro">
+            <div id="form__registro__container">
+                <input class="form__item" type="text" placeholder="Nombre:" required="">
+                <input class="form__item" type="email" placeholder="E-mail:" required="">
+                <input class="form__item" type="number" placeholder="Celular:" required="">
+                <input class="form__item" type="number" placeholder="Numero de personas:" required="">
+                <div class="form__item2">
+                    <label>Fecha de llegada:</label>
+                    <input class="form__item__date" type="date" required="">
+                </div>
+                <div class="form__item2">
+                    <label>Fecha de salida:</label>
+                    <input class="form__item__date" type="date" required="">
+                </div>
+                <div>
+                    <input type="checkbox" required="">
+                    <label id="check__label">He leido y acepto los terminos y condiciones.</label>
+                </div>
+                <div class="form__item2 container__reservar">
+                    <label>Total a pagar</label>
+                    <input class="form__item" type="text" readonly="readonly" value="$">
+                    <input class="form__item form__item__submit"  type="submit" value="Reservar">
+                </div>
+            </div>
+            <img id="form__calendar__img" src="images/calendar.png" alt="">
+        </form>
+    </main>
+    
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__author">Sitio Web realizado por Alan Estrada&copy;</p>
+            <span>Conceptualización de servicios en la nube</span>
+            <span>Código: 221392596</span>
+            <span>Email: <a class="footer__sendEmail" href="mailto:alan.gusteg@gmail.com">alan.gusteg@gmail.com</a></span>
+        </div>
+    </footer>
+</body>
+</html>
